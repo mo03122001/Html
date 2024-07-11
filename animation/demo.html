@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            background-color: aqua;
+        }
+
+        .demo {
+            width: 600px;
+            height: 250px;
+            background-image: url(./animation.1.jpg);
+            margin-left: 20%;
+            margin-top: 20px;
+            animation: demo1 3s infinite;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+
+        }
+
+       
+
+        @keyframes demo1 {
+            0% {
+                background-image: url(./image/animation.2.jpg);
+                width: 300px;
+                height: 250px;             
+            }
+
+            25% {
+                width: 300px;
+                height: 250px;
+                background-image: url(./image/animation3.jpg);
+        
+            }
+
+            50% {
+                width: 300px;
+                height: 250px;  
+                background-image: url(./image/animation5.jpg);
+                
+                
+            }
+
+            75% {
+                width: 300px;
+                height: 250px;    
+                background-image: url(./image/animation4.jpg);    
+
+            }
+
+            100% {
+                width: 300px;
+                height: 250px;
+                background-image: url(./image/animation1.jpg);   
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+
+        }
+
+        .demo {
+            width: 200px;
+            height: 200px;
+            margin-left: 40%;
+            margin-top: 50px;
+            animation: demo1 3s infinite;
+            background-color: red;
+            border: 10%;
+
+
+        }
+
+
+
+        @keyframes demo1 {
+            0% {
+                background-color: blueviolet;
+                width: 200px;
+                height: 200px;
+                border-radius: 10%;
+                
+            }
+
+            25% {
+                width: 200px;
+                height: 200px;
+                background-color: brown;
+                border-radius: 10%;
+
+            }
+
+            50% {
+                width: 200px;
+                height: 200px;
+                background-color: aqua;
+                border-radius: 10%;
+
+
+            }
+
+            75% {
+                width: 200px;
+                height: 200px;
+                background-color: yellow;
+
+            }
+
+            100% {
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+                border-radius: 10%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo"></div>
+</body>
+
+</html>
